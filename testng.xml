@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<!-- Add the ExtentReportManager listener to generate Extent reports -->
+	<listeners>
+		<listener class-name="api.utilities.ExtentReportManager"></listener>
+	</listeners>
+
+	<!-- Test for PetTests -->
+	<test name="PetTests">
+		<classes>
+			<!-- Include the PetTests class -->
+			<class name="api.test.PetTests" />
+		</classes>
+	</test>
+
+	<!-- Test for UserTests -->
+	<test name="UserTests">
+		<classes>
+			<!-- Include the UserTests class -->
+			<class name="api.test.UserTests" />
+		</classes>
+	</test>
+
+	<!-- Test for StoreOrderTests -->
+	<test name="StoreOrderTests">
+		<classes>
+			<!-- Include the StoreOrderTests class -->
+			<class name="api.test.StoreOrderTests" />
+		</classes>
+	</test>
+
+</suite>
