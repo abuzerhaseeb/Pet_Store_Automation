@@ -19,7 +19,7 @@ The API documentation for the Pet Store can be found on [Swagger Petstore](https
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/abuzerhaseeb/Pet_Store_Automation.git
     ```
 
 2. Open the project in your preferred IDE.
@@ -67,3 +67,7 @@ Test execution reports are generated using ExtentReports. After running the test
 ## Contributors
 
 - [Abuzer Haseeb](https://github.com/abuzerhaseeb)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
